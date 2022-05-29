@@ -23,6 +23,7 @@ function App() {
 
   return <div className="App">
   <h1>Hola</h1>
+  <h1>Hola</h1>
 
     {posts.map(post => (
       <div key={post.id} className="card p-2 m-2 bg-dark text-white">
